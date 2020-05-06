@@ -1,0 +1,5 @@
+#!/bin/bash
+c=`cat <<EOF
+$PYCODE
+EOF`
+python3 -c "$c"
